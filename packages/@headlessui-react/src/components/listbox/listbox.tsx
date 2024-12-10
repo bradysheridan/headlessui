@@ -581,7 +581,8 @@ function ListboxFn<
   }, [data])
 
   // Handle outside click
-  let outsideClickEnabled = data.listboxState === ListboxStates.Open
+  // let outsideClickEnabled = data.listboxState === ListboxStates.Open
+  let outsideClickEnabled = false
   useOutsideClick(
     outsideClickEnabled,
     [data.buttonElement, data.optionsElement],
