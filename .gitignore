@@ -24,7 +24,7 @@
 
 # production
 /dist
-/packages/**/dist
+# /packages/**/dist
 /playgrounds/**/dist
 
 # misc
